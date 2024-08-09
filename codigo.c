@@ -23,15 +23,15 @@ int main(){
 	
 	printf("Palavra: %s\n", str);
 	printf("%d\n", size);
-	printf("Palavra Contr·rio: %s\n", strContrario);
+	printf("Palavra Contr√°rio: %s\n", strContrario);
 	printf("%d\n", strlen(strContrario));
 	
 	
 	if (result == size-1){
-		printf("%s È um palÌndromo\n", str);
+		printf("%s √© um pal√≠ndromo\n", str);
 	}
 	else {
-		printf("%s n„o È um palÌndromo\n", str);
+		printf("%s n√£o √© um pal√≠ndromo\n", str);
 	}
 	
 	return 0;
